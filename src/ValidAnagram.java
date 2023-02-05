@@ -1,3 +1,10 @@
+/*
+* https://leetcode.com/problems/valid-anagram/
+* input: s = "anagram", t = "nagaram"
+* output: true
+* explanation: "anagram" and "nagaram" are consisted of same set of characters
+* */
+
 public class ValidAnagram {
     public static boolean isAnagram(String s, String t) {
         int[] alphabets = new int[26];
