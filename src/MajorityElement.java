@@ -1,8 +1,8 @@
 /*
-* https://leetcode.com/problems/contains-duplicate/
-* input: [1, 2, 3, 1]
-* output: true
-* explanation: input array contains duplicate numbers 1
+* https://leetcode.com/problems/majority-element/
+* input: [4, 5, 5]
+* output: 5
+* explanation: 5 is the majority element in this array
 * */
 
 import java.util.Arrays;
