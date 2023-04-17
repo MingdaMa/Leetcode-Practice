@@ -16,7 +16,6 @@ public class BinaryTreeInorderTraversal {
         if (root == null) {
             return;
         }
-
         traversal(root.left, res);
         res.add(root.val);
         traversal(root.right, res);
